@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 mongoose.Promise = global.Promise;
 
-
+// added for reset
 app.get('/posts', (req, res) => {
   BlogPost
     .find()
